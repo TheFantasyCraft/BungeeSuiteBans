@@ -37,14 +37,6 @@ commands:
         usage: |
                /<command>  (player)
                /<command> (player) (message)
-    kickall:
-        description: Kicks everyone from the proxy
-        aliases: [kicka]
-        permission: bungeesuite.bans.command.kickall
-        permission-message: §cYou do not have permission for this command
-        usage: |
-               /<command>
-               /<command>  (message)
     reloadbans:
         description: Reloads the bans config
         aliases: [bansreload, reloadban, banreload]

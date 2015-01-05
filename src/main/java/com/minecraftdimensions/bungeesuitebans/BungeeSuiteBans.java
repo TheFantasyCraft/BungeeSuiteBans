@@ -22,7 +22,6 @@ public class BungeeSuiteBans extends JavaPlugin {
         getCommand( "checkban" ).setExecutor( new CheckBanCommand() );
         getCommand( "ipban" ).setExecutor( new IPBanCommand() );
         getCommand( "kick" ).setExecutor( new KickCommand() );
-        getCommand( "kickall" ).setExecutor( new KickAllCommand() );
         getCommand( "reloadbans" ).setExecutor( new ReloadBansCommand() );
         getCommand( "tempban" ).setExecutor( new TempBanCommand() );
         getCommand( "unban" ).setExecutor( new UnbanCommand() );
